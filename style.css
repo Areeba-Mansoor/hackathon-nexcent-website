@@ -430,6 +430,8 @@ header {
 .features-container .images button {
   border: none;
   font-size: 14px;
+  padding: 10px;
+  background-color: transparent;
   font-weight: 600;
   transition: all 0.3s ease;
 }
@@ -733,7 +735,7 @@ footer {
   }
 
   .solegan {
-    padding: 80px 50px 20px;
+    padding: 120px 50px 20px;
   }
 
   .hero-image {
@@ -783,5 +785,10 @@ footer {
   }
   .get-demo h1 {
     font-size: 28px;
+  }
+
+  .company,
+  .email {
+    padding: 20px 50px;
   }
 }
